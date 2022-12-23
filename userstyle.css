@@ -1,7 +1,7 @@
 /* https://discourse.joplinapp.org/t/share-your-css/1730/23) */
 
 * {
-    color: #24292e;
+    color: white;
     font-family: "sf pro display", "Segoe UI",Helvetica,Arial,sans-serif;
 }
 
@@ -62,6 +62,8 @@ td {
 tr:nth-child(even) {
   background-color: #f6f8fa;
 }
+
+/* https://discourse.joplinapp.org/t/share-your-css/1730/65 */
 
 a {
 color: #0000CD; /* set general link colour - includes TOC links*/
