@@ -7,14 +7,14 @@
 }
 
 
-li.maps-to-line {
+li {
   background-color: #fff2cc;
 }
 
-code.inline-code {
-  color: #000000
-  border: #24292E;
-  background-color: #bcbcbc;
+code {
+  color: #000000;
+  border: #000000; 
+  background-color: #FFFFFF;
 }
 
 h1 {
@@ -71,13 +71,9 @@ td {
   border: 1px solid #dfe2e5;
 }
 
-tr:nth-child(odd) {
-  background-color: #fff2cc;
-  background-color: ##d9ead3; /* #f6f8fa;*/
-}
 
 tr:nth-child(even) {
-  background-color: ##d9ead3; /* #f6f8fa;*/
+  background-color: #f3f6f4; /* #f6f8fa;*/
 }
 
 /* https://discourse.joplinapp.org/t/share-your-css/1730/65 */
