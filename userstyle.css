@@ -1,20 +1,32 @@
-/* https://discourse.joplinapp.org/t/share-your-css/1730/23) */
+/*f3f6f4 https://discourse.joplinapp.org/t/share-your-css/1730/23) */
+
+:root {
+  --my-green: #006600;
+  --white: #ffffff; 
+}
+
 
 * {
-    color: #24292E;
+    color: #24292F;
     background-color: #FFFFFF;
-    font-family: "sf pro display", "Segoe UI",Helvetica,Arial,sans-serif;
-}
+    /* font-family: "sf pro display", "Segoe UI",Helvetica,Arial,sans-serif;*/
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;  
+  }
 
 
 li {
-  background-color: #fff2cc;
 }
 
-code {
-  color: #000000;
-  border: #000000; 
-  background-color: #FFFFFF;
+#checkbox-label-checked {
+  background-color: #FFF2CC;
+}
+
+code, span, pre {
+  color: #24292F;
+  font-family: monospace !important ;
+  background-color: #AFB8C133 !important;
+  border: #AFB8C133 !important;
 }
 
 h1 {
@@ -31,7 +43,7 @@ h2 {
   padding-bottom: .3em;
   border-bottom: 1px solid #eaecef;
   margin-top: 24px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   font-weight: 600;
   line-height: 1.25;
 }
@@ -40,17 +52,16 @@ h3 {
   font-size: 1.25em;
   font-weight: 600;
   line-height: 1.25;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px */;
   margin-top: 24px;
 }
 
 pre {
   border-radius: 3px;
-  background-color: #f6f8fa;
 }
 
 a {
-  color: #0366d6;
+  color: #0969DA;
   text-decoration: none;
 }
 
@@ -61,29 +72,35 @@ a:hover {
 hr {
   height: .25em;
   padding: 0;
-  margin: 24px 0;
-  background-color: #e1e4e8;
+  /* margin: 24px 0;*/ 
+  background-color: var(--joplin-color-error) !important;
   border: 0;
 }
 
 td {
+  color: #24292F !important;
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
 }
 
-
 tr:nth-child(even) {
-  background-color: #f3f6f4; /* #f6f8fa;*/
+  background-color: #f3f6f4 !important; /* #f6f8fa;*/
 }
 
-/* https://discourse.joplinapp.org/t/share-your-css/1730/65 */
+tr:nth-child(odd) {
+  background-color: #d9ead3 !important; /* #f6f8fa;*/
+}
 
-a {
-color: #0000CD; /* set general link colour - includes TOC links*/
+th {
+ background-color: #bcbcbc !important; 
+}
+
+p {
+  margin-bottom: 0.6em;
 }
 
 a[data-resource-id] {
-color: #006600; /* change the colour of INTERNAL links */
+color: var(--my-green); /* change the colour of INTERNAL links */
 }
 
 .resource-icon.fa-joplin {
@@ -91,7 +108,7 @@ display: none; /* do not display the Joplin resource icon */
 }
 
 .resource-icon {
-background-color: #006600; /* change other resource link icons to the same as the internal link colour */
+background-color: var(--my-green); /* change other resource link icons to the same as the internal link colour */
 }
 
 
