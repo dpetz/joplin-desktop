@@ -1,13 +1,5 @@
 /* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
 
-
-/* https://discourse.joplinapp.org/t/joplin-customization/11195*/
-
-div.CodeMirror-lines * {
-	color: white !important;
-  background-color: black;
-}
-
 /* https://github.com/EricB10/joplin-css-files/blob/master/userchrome.css */
 
 /* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
