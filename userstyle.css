@@ -1,7 +1,7 @@
 /* https://discourse.joplinapp.org/t/share-your-css/1730/23) */
 
 * {
-    color: ##FFFFFF;
+    color: #24292E;
     font-family: "sf pro display", "Segoe UI",Helvetica,Arial,sans-serif;
 }
 
@@ -33,7 +33,7 @@ h3 {
 }
 
 pre {
-  border-radius: 0px;
+  border-radius: 3px;
   background-color: #f6f8fa;
 }
 
