@@ -6,6 +6,11 @@
     font-family: "sf pro display", "Segoe UI",Helvetica,Arial,sans-serif;
 }
 
+code.inline-code {
+  border: black;
+  background-color: #bcbcbc;
+}
+
 h1 {
   margin-top: 0 !important;
   padding-bottom: .3em;
@@ -58,10 +63,11 @@ hr {
 td {
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
+  background-color: #fff2cc;
 }
 
 tr:nth-child(even) {
-  background-color: #f6f8fa;
+  background-color: ##d9ead3; /* #f6f8fa;
 }
 
 /* https://discourse.joplinapp.org/t/share-your-css/1730/65 */
