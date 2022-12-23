@@ -6,8 +6,14 @@
     font-family: "sf pro display", "Segoe UI",Helvetica,Arial,sans-serif;
 }
 
+
+li.maps-to-line {
+  background-color: #fff2cc;
+}
+
 code.inline-code {
-  border: black;
+  color: #000000
+  border: #24292E;
   background-color: #bcbcbc;
 }
 
@@ -63,11 +69,15 @@ hr {
 td {
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
+}
+
+tr:nth-child(odd) {
   background-color: #fff2cc;
+  background-color: ##d9ead3; /* #f6f8fa;*/
 }
 
 tr:nth-child(even) {
-  background-color: ##d9ead3; /* #f6f8fa;
+  background-color: ##d9ead3; /* #f6f8fa;*/
 }
 
 /* https://discourse.joplinapp.org/t/share-your-css/1730/65 */
