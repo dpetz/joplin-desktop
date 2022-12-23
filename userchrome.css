@@ -7,3 +7,72 @@ div.CodeMirror-lines * {
 	color: white !important;
   background-color: black;
 }
+
+/* https://github.com/EricB10/joplin-css-files/blob/master/userchrome.css */
+
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+/* Styling for Dark Theme */
+
+
+/* Plain Texts and LaTex */
+.ace_text.ace_xml {
+	color: aliceblue !important;
+}
+
+/* Checkboxes */
+.ace_variable {
+	color: aliceblue !important;
+}
+
+/* Headings */
+.ace_heading {
+	color: red !important;
+}
+
+/* Stongs */
+.ace_string.ace_strong {
+	color: gold !important;
+	font-weight: bold !important;
+}
+
+/* Italics */
+.ace_string.ace_emphasis {
+	color: gold !important;
+	font-style: italic !important;
+}
+
+/* Line Breaks */
+.ace_constant.ace_language.ace_escape {
+	color: gold !important;
+}
+
+/* Lists and Checkboxes */
+.ace_list {
+	color: palegoldenrod !important;
+}
+
+/* Inline Codes and Codeblocks */
+.ace_support.ace_function {
+	color: limegreen !important;
+}
+
+/* Link and Image Texts */
+.ace_string {
+	color: dodgerblue !important;
+}
+
+/* Links and Images */
+.ace_markup.ace_underline {
+	color: dodgerblue !important;
+}
+
+/* Input Fields: Search (Global, Local), Note Title */
+/* .header input { */
+input {
+	border-radius: 14px !important;
+	border: 1px solid rgb(85, 85, 85);
+	outline: none;
+	/*
+	background-color: #888888 !important;
+	*/
+}
