@@ -6,9 +6,23 @@
 /* Styling for Dark Theme */
 
 
+:root {
+ --my-bright-green: #8fce00;
+ --my-grey: #bcbcbc;
+}
+
+.cm-string {
+	font-size: 0.5em;
+	color: var(--my-grey);
+}
+
+span.cm-link-text {
+	color: var(--my-bright-green) !important;
+}
+
 /* Plain Texts and LaTex */
-.ace_text.ace_xml {
-	color: aliceblue !important;
+.cm-variable-2 {
+	color: orange !important;
 }
 
 /* Checkboxes */
@@ -17,8 +31,8 @@
 }
 
 /* Headings */
-.ace_heading {
-	color: red !important;
+.cm-header {
+	color: purple !important;
 }
 
 /* Stongs */

@@ -3,8 +3,11 @@
 :root {
   --my-green: #006600;
   --my-text: #24292F;
-  --my-code-background: #AFB8C133;
-  --my-unchecked: #ea9999;
+  --my-light-grey: #eeeeee;
+  --my-white: #ffffff;
+  --my-unchecked: #f4cccc;
+  --my-checked: #d9ead3;
+  --my-light-yellow: #fff2cc;
 }
 
 
@@ -13,26 +16,41 @@
     background-color: #FFFFFF;
     /* font-family: "sf pro display", "Segoe UI",Helvetica,Arial,sans-serif;*/
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    font-size: 14px;  
+    font-size: 15px;  
   }
 
 
 li {
 }
 
+
+element.style {
+}
+
+.better-markdown-viewer-highlight-line-dark {
+  background-color: var(--my-light-yellow) !important;
+}
+
 .checkbox-label-unchecked {
   background-color: var(--my-unchecked);
 }
 
+.checkbox-label-checked {
+  background-color: var(--my-checked);
+}
+
+
 code, span, pre {
   color: #var(--my-text);
   font-family: monospace !important ;
-  background-color: var(--my-code-background) !important;
-  border: #AFB8C133 !important;
+  background-color: var(--my-light-grey) !important;
+  /* border: #AFB8C133 !important */;
+  border: var (--my-light-grey);
+  padding-left: 0.2em;
 }
 
-.inline-code {
-  color: #var(--my-text) !important;
+code.inline-code {
+  color: var(--my-text) !important;
 }
 
 h1 {
@@ -89,11 +107,11 @@ td {
   border: 1px solid #dfe2e5;
 }
 
-tr:nth-child(even) {
+tr:nth-col(even) {
   background-color: #f3f6f4 !important; /* #f6f8fa;*/
 }
 
-tr:nth-child(odd) {
+tr:nth-col(odd) {
   background-color: #d9ead3 !important; /* #f6f8fa;*/
 }
 
@@ -106,8 +124,14 @@ p {
 }
 
 a[data-resource-id] {
-color: var(--my-green); /* change the colour of INTERNAL links */
+  color: var(--my-white); /* change the colour of INTERNAL links */
+  background-color: var(--my-green);
+  border: var(--my-green);
+  padding-left: 0.2em;
+  font-size: 0.8em;
+  font-family: "Noto Sans", sans-serif;
 }
+
 
 .resource-icon.fa-joplin {
 display: none; /* do not display the Joplin resource icon */
