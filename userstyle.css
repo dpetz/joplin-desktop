@@ -45,7 +45,7 @@ code, span, pre {
   font-family: monospace !important ;
   background-color: var(--my-light-grey) !important;
   /* border: #AFB8C133 !important */;
-  border: var (--my-light-grey);
+  border: var(--my-light-grey) !important;
   padding-left: 0.2em;
 }
 
@@ -125,11 +125,11 @@ p {
 
 a[data-resource-id] {
   color: var(--my-white); /* change the colour of INTERNAL links */
-  background-color: var(--my-green);
-  border: var(--my-green);
-  padding-left: 0.2em;
+  background-color: #0969DA; /* #8fce00; */
+  border: 0.1em
   font-size: 0.8em;
-  font-family: "Noto Sans", sans-serif;
+  /* font-family: "Noto Sans", sans-serif; */
+  border-radius: 5px;
 }
 
 

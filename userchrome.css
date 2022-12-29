@@ -9,6 +9,7 @@
 :root {
  --my-bright-green: #8fce00;
  --my-grey: #bcbcbc;
+  --my-light-grey: #eeeeee;
 }
 
 .cm-string {
@@ -22,7 +23,7 @@ span.cm-link-text {
 
 /* Plain Texts and LaTex */
 .cm-variable-2 {
-	color: orange !important;
+	color: var(--my-light-gray);
 }
 
 /* Checkboxes */
@@ -32,7 +33,7 @@ span.cm-link-text {
 
 /* Headings */
 .cm-header {
-	color: purple !important;
+	color: orange !important;
 }
 
 /* Stongs */
