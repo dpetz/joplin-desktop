@@ -5,7 +5,7 @@
   --my-text: #24292F;
   --my-light-grey: #eeeeee;
   --my-white: #ffffff;
-  --my-unchecked: #f4cccc;
+  --my-unchecked: #fce5cd;
   --my-checked: #d9ead3;
   --my-light-yellow: #fff2cc;
 }
@@ -16,7 +16,7 @@
     background-color: #FFFFFF;
     /* font-family: "sf pro display", "Segoe UI",Helvetica,Arial,sans-serif;*/
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    font-size: 15px;  
+    /* font-size: 15px; */  
   }
 
 
@@ -47,6 +47,7 @@ code, span, pre {
   /* border: #AFB8C133 !important */;
   border: var(--my-light-grey) !important;
   padding-left: 0.2em;
+  font-size: 0.8em;
 }
 
 code.inline-code {
@@ -116,21 +117,25 @@ tr:nth-col(odd) {
 }
 
 th {
- background-color: #bcbcbc !important; 
+ background-color: #cfe2f3 !important; 
 }
 
 p {
   margin-bottom: 0.6em;
 }
-
 a[data-resource-id] {
-  color: var(--my-white); /* change the colour of INTERNAL links */
-  background-color: #0969DA; /* #8fce00; */
-  border: 0.1em
-  font-size: 0.8em;
-  /* font-family: "Noto Sans", sans-serif; */
+  color: #23652f;
+  /*
+  color: var(--my-white);
+  background-color: #0969DA;
+  border: 0.2em;
+  font-size: 0.6em;
+  font-weight: bold;
   border-radius: 5px;
+  */
 }
+
+
 
 
 .resource-icon.fa-joplin {

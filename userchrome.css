@@ -7,23 +7,30 @@
 
 
 :root {
- --my-bright-green: #8fce00;
- --my-grey: #bcbcbc;
-  --my-light-grey: #eeeeee;
+	--my-bright-green: #8fce00;
+	--my-grey: #bcbcbc;
+	--my-light-grey: #eeeeee;
 }
 
-.cm-string {
+.cm-url, .cm-string {
 	font-size: 0.5em;
-	color: var(--my-grey);
+	color: var(--my-grey) !important;
 }
+
 
 span.cm-link-text {
 	color: var(--my-bright-green) !important;
 }
 
+.cm-jn-inline-code {
+	background-color: #1d2024 !important;
+	font-size: 0.9em;
+	/* rgb(29, 32, 36) */
+}
+
 /* Plain Texts and LaTex */
 .cm-variable-2 {
-	color: var(--my-light-gray);
+	color: var(aliceblue);
 }
 
 /* Checkboxes */
@@ -33,17 +40,21 @@ span.cm-link-text {
 
 /* Headings */
 .cm-header {
-	color: orange !important;
+	color: aqua !important; /* ffe599 */
+}
+
+.cm-quote {
+	color: azure !important;
 }
 
 /* Stongs */
-.ace_string.ace_strong {
+.cm-strong {
 	color: gold !important;
 	font-weight: bold !important;
 }
 
 /* Italics */
-.ace_string.ace_emphasis {
+.cm-em {
 	color: gold !important;
 	font-style: italic !important;
 }
@@ -54,7 +65,7 @@ span.cm-link-text {
 }
 
 /* Lists and Checkboxes */
-.ace_list {
+.cm-rm-list-token {
 	color: palegoldenrod !important;
 }
 
