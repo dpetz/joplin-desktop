@@ -18,13 +18,14 @@
 }
 
 
-span.cm-link-text {
-	color: var(--my-bright-green) !important;
+.cm-link-text {
+	color: dodgerblue !important;
 }
 
-.cm-jn-inline-code {
-	background-color: #1d2024 !important;
-	font-size: 0.9em;
+.cm-comment {
+	background-color: #1d2024;
+	font-size: 0.9em !important;
+	color: limegreen !important;
 	/* rgb(29, 32, 36) */
 }
 
@@ -47,7 +48,7 @@ span.cm-link-text {
 	color: azure !important;
 }
 
-/* Stongs */
+/* Strongs */
 .cm-strong {
 	color: gold !important;
 	font-weight: bold !important;
@@ -65,23 +66,13 @@ span.cm-link-text {
 }
 
 /* Lists and Checkboxes */
-.cm-rm-list-token {
+/* .cm-rm-list-token {
 	color: palegoldenrod !important;
-}
+}*/
 
 /* Inline Codes and Codeblocks */
 .ace_support.ace_function {
 	color: limegreen !important;
-}
-
-/* Link and Image Texts */
-.ace_string {
-	color: dodgerblue !important;
-}
-
-/* Links and Images */
-.ace_markup.ace_underline {
-	color: dodgerblue !important;
 }
 
 /* Input Fields: Search (Global, Local), Note Title */
