@@ -46,12 +46,13 @@ code, span, pre {
   background-color: var(--my-light-grey) !important;
   /* border: #AFB8C133 !important */;
   border: var(--my-light-grey) !important;
-  padding-left: 0.2em;
-  font-size: 0.8em;
+  /* padding-left: 0.2em; */
+  font-size: 0.9em;
 }
 
 code.inline-code {
   color: var(--my-text) !important;
+  font-size: 0.8m
 }
 
 h1 {
@@ -117,7 +118,7 @@ tr:nth-col(odd) {
 }
 
 th {
- background-color: #cfe2f3 !important; 
+ /* background-color: #cfe2f3 !important; */
 }
 
 p {
