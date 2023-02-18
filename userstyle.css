@@ -10,10 +10,18 @@
   --my-light-yellow: #fff2cc;
 }
 
+#joplin-container-content {
+  background-color: white;
+}
+
+
+body {
+  color: var(--my-text);  
+}
 
 * {
-    color: var(--my-text);
-    background-color: #FFFFFF;
+    /* color: var(--my-text); */
+    /* background-color: transparent; */ 
     /* font-family: "sf pro display", "Segoe UI",Helvetica,Arial,sans-serif;*/
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     /* font-size: 15px; */  
@@ -21,6 +29,7 @@
 
 
 li {
+  color: var(--my-text);
 }
 
 
@@ -56,6 +65,7 @@ code.inline-code {
 }
 
 h1 {
+  color: var(--my-text);
   margin-top: 0 !important;
   padding-bottom: .3em;
   border-bottom: 1px solid #eaecef;
@@ -65,6 +75,7 @@ h1 {
 }
 
 h2 {
+  color: var(--my-text);
   font-size: 1.5em;
   padding-bottom: .3em;
   border-bottom: 1px solid #eaecef;
@@ -75,6 +86,7 @@ h2 {
 }
 
 h3 {
+  color: var(--my-text);
   font-size: 1.25em;
   font-weight: 600;
   line-height: 1.25;
@@ -96,33 +108,45 @@ a:hover {
 }
 
 hr {
-  height: .25em;
+  height: 0.1em;
   padding: 0;
   /* margin: 24px 0;*/ 
-  background-color: var(--joplin-color-error) !important;
+  background-color: lightgrey;
   border: 0;
 }
 
 td {
-  color: #24292F !important;
+  /* color: var(--my-text); */
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
 }
 
-tr:nth-col(even) {
-  background-color: #f3f6f4 !important; /* #f6f8fa;*/
+/* 
+tr:nth-child(even) {
+  background-color: lightgrey !important;
+  color: var(--my-text);
 }
 
-tr:nth-col(odd) {
-  background-color: #d9ead3 !important; /* #f6f8fa;*/
+tr:nth-child(odd) {
+  background-color: white !important;
+  color: var(--my-text);
 }
+
 
 th {
- /* background-color: #cfe2f3 !important; */
+  background-color: grey !important;
 }
+*/
+
+div.rendered-md {
+  background-color: lightgrey !important;
+}
+
+
 
 p {
   margin-bottom: 0.6em;
+  color: var(--my-text);
 }
 a[data-resource-id] {
   color: #23652f;
@@ -136,6 +160,16 @@ a[data-resource-id] {
   */
 }
 
+
+dl,dd,dt {
+  background-color: #eeeeee !important;
+}
+
+dl {
+  border-radius: 25px;
+  border: 2px solid var(darkgrey);
+  padding: 10px; 
+}
 
 
 
