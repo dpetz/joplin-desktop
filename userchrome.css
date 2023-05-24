@@ -87,5 +87,17 @@ input {
 }
 
 
+button.new-todo-button {
+    /* removes the "New To-do" button (v2.10.6+) */
+    display: none;
+}
+div.new-note-todo-buttons {
+     /* removes the the space for the "New To-do" button (v2.10.6+) */
+    grid-template-columns: 1fr 0;
+    gap: 0px;
+}
 
-
+button.new-note-button {
+    /* removes the "New To-do" button (v2.10.6+) */
+    display: none;
+}
