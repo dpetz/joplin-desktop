@@ -61,7 +61,7 @@ code, span, pre {
 
 code.inline-code {
   color: var(--my-text) !important;
-  font-size: 0.8m
+  font-size: 0.9m
 }
 
 h1 {
@@ -116,27 +116,26 @@ hr {
 }
 
 td {
-  /* color: var(--my-text); */
+  color: var(--my-text) !important;
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
 }
 
-/* 
 tr:nth-child(even) {
   background-color: lightgrey !important;
-  color: var(--my-text);
+  color: var(--my-text) !important;
 }
 
 tr:nth-child(odd) {
-  background-color: white !important;
-  color: var(--my-text);
+  background-color: white !important ;
+   color: var(--my-text) !important;
 }
 
 
 th {
-  background-color: grey !important;
+  background-color: lightgrey !important;
+  color: var(--my-text) !important;
 }
-*/
 
 div.rendered-md {
   background-color: lightgrey !important;
