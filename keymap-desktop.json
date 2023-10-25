@@ -1,0 +1,74 @@
+[
+  {
+    "command": "historyBackward",
+    "accelerator": "Ctrl+B"
+  },
+  {
+    "command": "historyForward",
+    "accelerator": "Option+Right"
+  },
+  {
+    "command": "leaveSharedFolder",
+    "accelerator": "Cmd+Esc"
+  },
+  {
+    "command": "setHomenote",
+    "accelerator": "Cmd+Option+Shift+H"
+  },
+  {
+    "command": "openHomenote",
+    "accelerator": "Cmd+Shift+H"
+  },
+  {
+    "command": "getActiveNoteLink",
+    "accelerator": null
+  },
+  {
+    "command": "convertTextToNewNote",
+    "accelerator": "Ctrl+Option+N"
+  },
+  {
+    "command": "editor.richMarkdown.clickAtCursor",
+    "accelerator": "Ctrl+Enter"
+  },
+  {
+    "command": "createNoteOverview",
+    "accelerator": "Cmd+O"
+  },
+  {
+    "command": "backlinksIgnoreListOpen",
+    "accelerator": "Ctrl+Option+L"
+  },
+  {
+    "command": "backlinksIgnoreListToggleCurrent",
+    "accelerator": "Ctrl+Option+T"
+  },
+  {
+    "command": "insertBackReferences",
+    "accelerator": "Ctrl+Option+B"
+  },
+  {
+    "command": "richMarkdown.inlineImages",
+    "accelerator": null
+  },
+  {
+    "command": "gotoJItem1",
+    "accelerator": "Cmd+1"
+  },
+  {
+    "command": "gotoJItem2",
+    "accelerator": "Cmd+2"
+  },
+  {
+    "command": "gotoJItem3",
+    "accelerator": "Cmd+3"
+  },
+  {
+    "command": "gotoJItem4",
+    "accelerator": "Cmd+4"
+  },
+  {
+    "command": "richMarkdown.focusMode",
+    "accelerator": null
+  }
+]

@@ -1,0 +1,78 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_US",
+	"api.token": "d50016859e74d1db28eef204a830a05faac92068d36f966eea3205bf0ca12b03ed59862842c1244daf5561e5463735161265e4b91f2b0afb18167a8383885ade",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"spellChecker.language": "en-GB",
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"visible": true,
+				"width": 228
+			},
+			{
+				"key": "noteList",
+				"visible": true,
+				"width": 374
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"sync.target": 5,
+	"sync.5.username": "dirk.petzoldt@gmail.com",
+	"sync.5.path": "https://nc.nl.tab.digital/remote.php/dav/files/dirk.petzoldt@gmail.com/Joplin",
+	"sync.maxConcurrentConnections": 5,
+	"uncompletedTodosOnTop": false,
+	"editor.codeView": true,
+	"clipperServer.autoStart": true,
+	"layoutButtonSequence": 0,
+	"folders.sortOrder.field": "title",
+	"markdown.plugin.fountain": true,
+	"markdown.plugin.sub": true,
+	"markdown.plugin.sup": true,
+	"markdown.plugin.deflist": true,
+	"markdown.plugin.abbr": true,
+	"markdown.plugin.emoji": true,
+	"markdown.plugin.insert": true,
+	"markdown.plugin.multitable": true,
+	"notes.sortOrder.field": "user_updated_time",
+	"notes.sortOrder.reverse": true,
+	"notes.perFieldReverse": {
+		"user_updated_time": true,
+		"user_created_time": true,
+		"title": true,
+		"order": true
+	},
+	"trackLocation": true,
+	"newNoteFocus": "body",
+	"markdown.plugin.audioPlayer": false,
+	"markdown.plugin.videoPlayer": false,
+	"markdown.plugin.pdfViewer": false,
+	"showTrayIcon": true,
+	"editor.keyboardMode": "vim",
+	"windowContentZoomFactor": 100,
+	"theme": 2,
+	"themeAutoDetect": false,
+	"spellChecker.languages": [
+		"en-GB"
+	],
+	"preferredLightTheme": 1,
+	"style.editor.fontSize": 16,
+	"style.editor.fontFamily": "",
+	"style.editor.monospaceFontFamily": "",
+	"sync.interval": 300,
+	"editor": "/System/Applications/Utilities/Terminal.app --vim",
+	"newTodoFocus": "title",
+	"editor.autoMatchingBraces": false
+}
