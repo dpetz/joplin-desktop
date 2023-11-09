@@ -70,5 +70,13 @@
   {
     "command": "richMarkdown.focusMode",
     "accelerator": null
+  },
+  {
+    "command": "noteNameAlter",
+    "accelerator": null
+  },
+  {
+    "command": "noteNameReplace",
+    "accelerator": null
   }
 ]

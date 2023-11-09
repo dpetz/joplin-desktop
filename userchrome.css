@@ -10,6 +10,7 @@
 	--my-bright-green: #8fce00;
 	--my-grey: #bcbcbc;
 	--my-light-grey: #eeeeee;
+	--my-orange: #FF7F00;
 }
 
 .cm-url { /* incl. '.cm-string' messes up strings in code blocks */
@@ -41,7 +42,7 @@
 
 /* Headings */
 .cm-header {
-	color: aqua !important; /* ffe599 */
+	color: var(--my-orange) !important; /* ffe599 */
 }
 
 .cm-quote {

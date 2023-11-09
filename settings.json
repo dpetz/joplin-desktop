@@ -1,7 +1,7 @@
 {
 	"$schema": "https://joplinapp.org/schema/settings.json",
 	"locale": "en_US",
-	"api.token": "d50016859e74d1db28eef204a830a05faac92068d36f966eea3205bf0ca12b03ed59862842c1244daf5561e5463735161265e4b91f2b0afb18167a8383885ade",
+	"api.token": "dcd2cbd0584a6c9d3b494c2ae78b0fc56255c1134b2ab8da8ffabbe78a7dcb28bda4f29360789d2c98d295283147af3f1515538986009fbdb143041de2403a95",
 	"markdown.plugin.softbreaks": false,
 	"markdown.plugin.typographer": false,
 	"spellChecker.language": "en-GB",
@@ -10,13 +10,13 @@
 		"children": [
 			{
 				"key": "sideBar",
-				"visible": true,
+				"visible": false,
 				"width": 228
 			},
 			{
 				"key": "noteList",
 				"visible": true,
-				"width": 374
+				"width": 233
 			},
 			{
 				"key": "editor",
@@ -26,8 +26,7 @@
 		"visible": true
 	},
 	"noteVisiblePanes": [
-		"editor",
-		"viewer"
+		"editor"
 	],
 	"sync.target": 5,
 	"sync.5.username": "dirk.petzoldt@gmail.com",
@@ -36,7 +35,7 @@
 	"uncompletedTodosOnTop": false,
 	"editor.codeView": true,
 	"clipperServer.autoStart": true,
-	"layoutButtonSequence": 0,
+	"layoutButtonSequence": 1,
 	"folders.sortOrder.field": "title",
 	"markdown.plugin.fountain": true,
 	"markdown.plugin.sub": true,
@@ -71,8 +70,11 @@
 	"style.editor.fontSize": 16,
 	"style.editor.fontFamily": "",
 	"style.editor.monospaceFontFamily": "",
-	"sync.interval": 300,
-	"editor": "/System/Applications/Utilities/Terminal.app --vim",
+	"sync.interval": 3600,
+	"editor": "open -a /Applications/MacVim.app",
 	"newTodoFocus": "title",
-	"editor.autoMatchingBraces": false
+	"editor.autoMatchingBraces": false,
+	"dateFormat": "YYYY-MM-DD",
+	"autoUpdate.includePreReleases": true,
+	"plugins.devPluginPaths": "/Users/dirk/git/joplin-link-references"
 }

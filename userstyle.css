@@ -1,4 +1,4 @@
-/*f3f6f4 https://discourse.joplinapp.org/t/share-your-css/1730/23) */
+/*f3f6f4 https:/i/discourse.joplinapp.org/t/share-your-css/1730/23) */
 
 :root {
   --my-green: #006600;
@@ -7,6 +7,7 @@
   --my-white: #ffffff;
   --my-unchecked: #fce5cd;
   --my-checked: #d9ead3;
+  --my-headline: #24292F;
   --my-light-yellow: #fff2cc;
 }
 
@@ -68,18 +69,18 @@ code.inline-code {
 }
 
 h1 {
-  color: var(--my-text);
+  color: var(--my-headline);
   margin-top: 0 !important;
   padding-bottom: .3em;
   border-bottom: 1px solid #eaecef;
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 600;
   line-height: 1.25;
 }
 
 h2 {
-  color: var(--my-text);
-  font-size: 1.5em;
+  color: var(--headline);
+  font-size: 1.1em;
   padding-bottom: .3em;
   border-bottom: 1px solid #eaecef;
   margin-top: 24px;
@@ -89,8 +90,8 @@ h2 {
 }
 
 h3 {
-  color: var(--my-text);
-  font-size: 1.25em;
+  color: var(--headline);
+  font-size: 1em;
   font-weight: 600;
   line-height: 1.25;
   /* margin-bottom: 16px */;
